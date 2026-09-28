@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="exe_games.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4.4.1. Os presento al robot Maqueen | Robotica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="exe_games.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Robotica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Aprendiendo sobre Robots</a></li>
+   <li><a href="1_qu_vamos_a_hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a></li>
+   <li><a href="2_nuestra_placa_robtica.html" class="daddy">2. Nuestra placa robótica</a>
+   <ul class="other-section">
+      <li><a href="21_exploramos_la_placa.html" class="no-ch">2.1. Exploramos la placa</a></li>
+      <li><a href="22_el_cerebro_de_nuestro_robot.html" class="daddy">2.2. El cerebro de nuestro robot</a>
+      <ul class="other-section">
+         <li><a href="221_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+      </ul>
+      </li>
+      <li><a href="23_entradas_procesamiento_y_salidas.html" class="no-ch">2.3. Entradas, procesamiento y salidas</a></li>
+      <li><a href="24_pines_y_algunos_actuadores_jugando_con_nuestra_microbit.html" class="no-ch">2.4 Pines y algunos actuadores: jugando con nuestra Microbit</a></li>
+   </ul>
+   </li>
+   <li><a href="3_los_sensores_de_nuestro_robot.html" class="daddy">3. Los Sensores de nuestro robot</a>
+   <ul class="other-section">
+      <li><a href="31_activamos_nuestros_sentidos_perdn_sensores.html" class="no-ch">3.1 Activamos nuestros sentidos, perdón sensores</a></li>
+      <li><a href="32_la_importancia_de_los_sensores.html" class="no-ch">3.2 La importancia de los sensores</a></li>
+      <li><a href="33_el_sentido_de_los_sensores.html" class="daddy">3.3. El sentido de los sensores</a>
+      <ul class="other-section">
+         <li><a href="331_seales_de_vida.html" class="no-ch">3.3.1. Señales de vida</a></li>
+         <li><a href="332_veamos_si_mi_robot_detecta_algo.html" class="no-ch">3.3.2. Veamos si mi robot detecta algo</a></li>
+         <li><a href="333_programamos_con_makecode.html" class="no-ch">3.3.3. Programamos con MakeCode</a></li>
+         <li><a href="334_cmo_prefieres_ver_lo_que_miden_los_sensores.html" class="no-ch">3.3.4. ¿Cómo prefieres ver lo que miden los sensores?</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="4_proyecto_nos_desplazamos_con_seguridad.html" class="current-page-parent daddy">4. Proyecto: Nos desplazamos con seguridad.</a>
+   <ul>
+      <li><a href="41_comenzamos_a_movernos.html" class="no-ch">4.1. Comenzamos a movernos</a></li>
+      <li><a href="42_hacemos_memoria.html" class="no-ch">4.2. ¿Hacemos memoria?</a></li>
+      <li><a href="43_conoce_a_nuestros_tres_protagonistas.html" class="no-ch">4.3. Conoce a nuestros tres protagonistas</a></li>
+      <li class="current-page-parent"><a href="44_aprendemos_todo_lo_necesario.html" class="current-page-parent daddy">4.4. Aprendemos todo lo necesario</a>
+      <ul>
+         <li id="active"><a href="441_os_presento_al_robot_maqueen.html" class="active daddy">4.4.1. Os presento al robot Maqueen</a>
+         <ul>
+            <li><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="no-ch">4.4.1.1 ¿Cómo funciona el sensor ultrasónico?</a></li>
+         </ul>
+         </li>
+         <li><a href="442_nuestro_editor_de_cdigo.html" class="no-ch">4.4.2 Nuestro editor de código</a></li>
+         <li><a href="443_programamos_la_placa_controladora.html" class="no-ch">4.4.3. Programamos la placa controladora</a></li>
+      </ul>
+      </li>
+      <li><a href="45_ahora_toca_programar.html" class="no-ch">4.5. Ahora toca programar</a></li>
+      <li><a href="46_es_la_hora_de_compartir.html" class="no-ch">4.6. Es la hora de compartir</a></li>
+      <li><a href="47_sacamos_conclusiones.html" class="no-ch">4.7. Sacamos conclusiones</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="44_aprendemos_todo_lo_necesario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4.4.1. Os presento al robot Maqueen</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id2757">
+<div class="iDevice emphasis0" >
+<div id="ta2757_999_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Diccionario</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-accordion">
+<h2>Bandas de rodadura</h2>
+<p><img src="BandaRodadura.jpg" alt="Imagen de dos bandas de rodadura. En ellas se puede apreciar los dibujos de los surcos que favorecen el agarre a la superficie." title="Banda Rodadura" style="float: left; margin: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Parte exterior de la rueda que está en contacto con el suelo. Están fabricadas de un plástico especial que favorecen el agarre a la superficie.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Las ruedas del robot Maqueen llevan bandas de rodadura para evitar que puedan patinar.</p>
+</dd>
+</dl>
+<h2>Eje</h2>
+<p><img src="https://blogsaverroes.juntadeandalucia.es/diccionario/files/2022/07/IMAG_MAT1PRI_REA-04_FASE4.4_EJE-150x150.png" alt="La Imagen Muestra Un Dibujo Del Planeta Tierra Atravesado Por Una Línea Y En La Parte Superior Junto A La Línea La Palabra Eje." title="Eje" style="float: left; margin: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Barra o línea que atraviesa un cuerpo giratorio y le sirve como centro para girar.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>El eje de la Tierra está inclinado.</p>
+</dd>
+</dl>
+<h2>Llantas</h2>
+<p><img src="Llantas.png" alt="Imagen donde se muestra la llanta del robot Maqueen, tanto su cara exterior como la interior." title="Llanta" style="float: left; margin: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Plural de llanta. Es una pieza, generalmente de metal, de forma circular sobre la que se monta el neumático.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Los coches, las motos e incluso tu bici dispone de ellas.</p>
+</dd>
+</dl>
+<h2>Ultrasonido</h2>
+<p><img src="MurciAlago.png" alt="Imagen de un murciélago volando en la oscuridad." title="Murciélago" style="float: left; margin: 10px;" width="125" height="125"></p>
+<dl style="overflow: hidden;">
+<dt><strong>Definición:</strong></dt>
+<dd>
+<p>Es una onda cuya frecuencia es de un valor muy elevado, el ser humano no puede oírlos.</p>
+</dd>
+<dt><strong>Ejemplo:</strong></dt>
+<dd>
+<p>Los murciélagos usan estos sonidos para evitar chocar con los objetos.</p>
+</dd>
+</dl>
+</div></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id2758">
+<div class="iDevice emphasis0" >
+<div id="ta2758_1087_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="retor_adultos_sin_bocadillo.gif" alt="Retor dice" title="Retor" style="float: left; margin-right: 10px; margin-left: 0px;" width="250" height="250" /> En este apartado conoceréis el robot con que vais a realizar vuestro trabajo final.</p>
+<p>Se trata del robot <strong>Maqueen</strong>.</p>
+<p>Este robot viene <strong>superequipado</strong> y es importante que lo conozcáis en profundidad.</p>
+<p>Os presento unas <strong>actividades</strong> que os van a permitir <strong>conocer </strong>muchas cosas del robot Maqueen.</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_manipula" id="id2759">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_manipula.svg)"><h1 class="iDeviceTitle">1. Montamos nuestro Maqueen</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2759_998_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>¿Qué os parece conocer <strong>todas las partes</strong> que forman nuestro robot?</p>
+<p>Si vamos a trabajar con él, sería interesante <strong>conocer</strong> a fondo los detalles de todas las partes que lo forman. Quién sabe, quizás en algún momento debas montarlo, por eso os propongo esta actividad.</p>
+<p>Vuestro <strong>profesora o profesor</strong> os proporcionará un robot <strong>Maqueen</strong> totalmente <strong>desmontado</strong>. Os váis a convertir en <strong>mecánicos</strong> Maqueen. Para que el éxito esté asegurado os propongo que trabajéis en <strong>grupo</strong>.</p>
+<p>Antes de empezar a ensamblar, es importante <strong>conocer</strong> un poco mejor todas <strong>los elementos</strong> que forman el Maqueen.</p>
+<div class="exe-fx exe-paginated">
+<h2>Conjunto de piezas</h2>
+<p>En la siguiente imagen podéis ver todas las partes que forman nuestro Maqueen:</p>
+<p><img src="ConjuntoPiezasMaqueen_2png.png" alt="Imagen de conjunto de todas las piezas que formar el robot Maqueen numeradas del 1 al 6. Las piezas son: el sensor ultrasónico, material adhesivo de doble cara, el portapilas, las dos llantas, las dos bandas de rodadura y la placa." title="Conjunto piezas" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="563"> Las piezas numeradas se llaman:</p>
+<ol>
+<li><strong>Sensor ultrasónico</strong> o de ultrasonicos.</li>
+<li><strong>Material adhesivo</strong> de doble cara.</li>
+<li><strong>Portapilas</strong> para tres pilas tipo AAA.</li>
+<li>Dos <strong>llantas</strong>.</li>
+<li>Dos <strong>bandas de rodadura</strong>.</li>
+<li>La <strong>placa</strong> del robot.</li>
+</ol>
+<p>En las siguientes pestañas podéis aprender más sobre cada una de ellas.</p>
+<h2>1. Sensor ultrasónico</h2>
+<p>Este sensor os va a permitir <strong>medir la distancia</strong> a la que se encuentra un objeto que esté delante del robot.</p>
+<p>Vamos a verlo con más detalle. Fijaos en la siguiene imagen:</p>
+<p><img src="SensorUltrasonico_2.png" alt="Imagen del sensor ultrasónico HC-SR04. Sobre él se destacan los siguientes elementos: el primero indica la T, el segundo indica la letra R. el tercero Vcc, el cuarto Trig, el quinto Echo y el sexto Gnd." title="Sensor ultrasónico" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="563"></p>
+<p>A continuación vamos a describir todas sus partes:</p>
+<ol>
+<li>Es el <strong>transmisor</strong> y viene representado por la letra T. Su misión es emitir impulsos.</li>
+<li>Es el <strong>receptor</strong>, viene indicado con la letra R. Recibe los ecos.</li>
+<li>Patilla <strong>Vcc</strong>, se conecta a 5v.</li>
+<li>Patilla <strong>Trig</strong>. Representa el trigger o disparo del <a href="#tf435325d-ecda-8467-60b0-2c634c744c08" id="linkf435325d-ecda-8467-60b0-2c634c744c08" class="exe-tooltip definition-tt titled-tt" title="Ultrasonido | Accede al término Ultrasonido del diccionario">ultrasonido</a>.</li>
+<li>Patilla <strong>Echo</strong>. Recepción del ultrasonido.</li>
+<li>Patilla <strong>Gnd</strong>, se conecta al negativo.</li>
+</ol>
+<h2>2. Material adhesivo</h2>
+<p>Este material tiene <strong>ambas caras</strong> adhesivas e irá colocado <strong>sobre la superficie</strong> de los motores. A continuación se muestra una imagen:</p>
+<p><img src="MaterialAdhesivo.png" alt="Imagen del material adhesivo de doble cara que utilizaremos para fijar el portapilas sobre los motores." title="Material adhesivo" style="display: block; margin-left: auto; margin-right: auto;" width="559" height="455"></p>
+<p>En el caso de tener que montar este elemento actuaremos como sigue:</p>
+<ol>
+<li><strong>Retiramos </strong>la lámina de protección de una de las caras.</li>
+<li><strong>Colocamos</strong> sobre los motores.</li>
+<li>La otra lámina de protección se retira cuando vayamos a instalar el portapilas.</li>
+</ol>
+<h2>3. Portapilas</h2>
+<p>Gracias a este elemento podremos <strong>suministrar la energía eléctrica</strong> a la placa del Maqueen.</p>
+<p>Si os fijáis en la siguiente imagen, se destacan algunas <strong>partes importantes</strong>:</p>
+<p style="text-align: center;"><a href="PortaPilas_2.png" rel="lightbox"><img src="PortaPilas_2.png" alt="Imagen de un portapilas para tres pilas tipo AAA. En la imagen se indican detalles como el cable rojo, el cable negro, el conector y la carcasa." title="Portapilas" style="display: block; margin-left: auto; margin-right: auto;" width="559" height="455"></a>Para verla más grande, haz clic sobre ella</p>
+<p>A continuación, os cuento más cosas sobre este elemento:</p>
+<ol>
+<li><strong>Conector</strong> de alimentación, sólo tiene una posición.</li>
+<li><strong>Cable negro</strong>, representa el <strong>negativo</strong> de la alimentación.</li>
+<li><strong>Cable rojo</strong>, representa el <strong>positivo</strong>.</li>
+<li>Valor <strong>positivo de la pila</strong> (+). Al colocar las pilas debéis fijaros en este detalle.</li>
+<li>Valor <strong>negativo de la pila</strong> (-).</li>
+<li>Tipo de pilas <strong>AAA</strong>.</li>
+</ol>
+<h2>4. Llantas</h2>
+<p>Las <a href="#t5b7c9dd0-fd7a-34b1-6726-c7a576b119b2" id="link5b7c9dd0-fd7a-34b1-6726-c7a576b119b2" title="Llantas | Accede al término Llantas del diccionario" class="exe-tooltip definition-tt titled-tt">llantas</a> junto con las <a href="#t0008704b-25cd-7cfa-7de0-bea13ed353bc" id="link0008704b-25cd-7cfa-7de0-bea13ed353bc" class="exe-tooltip definition-tt titled-tt" title="Bandas de rodadura | Accede al término Bandas de rodadura del diccionario">bandas de rodadura</a> forman las ruedas de nuestro robot.</p>
+<p>En la siguiente imagen podéis ver los <strong>detalles</strong> de las llantas:</p>
+<p><img src="Llantas2.png" alt="Imagen donde se muestra la llanta del robot Maqueen, tanto su cara exterior como la interior." title="Llanta" style="display: block; margin-left: auto; margin-right: auto;" width="559" height="455"></p>
+<p>Ahora os explico todo un poco mejor:</p>
+<ul>
+<li>En la imagen podéis ver la llanta en su <strong>cara exterior</strong> y en su <strong>cara interior</strong>. Esto se refiere a cómo deben quedar una vez montadas en el robot.</li>
+<li>Ahora vamos a ver los <strong>detalles</strong> que están <strong>numerados</strong>:
+<ul>
+<li><strong>Detalle 1:</strong> Por aquí se introduce el eje de la placa. Es muy importante que os fijéis que tiene una zona plana que conincidirá con el elemento que se introduce.</li>
+<li><strong>Detalle 2</strong>: Al colorcar las bandas de rodadura debéis tener en cuenta estos <strong>huecos</strong>.</li>
+</ul>
+</li>
+</ul>
+<h2>5. Bandas de rodadura</h2>
+<p>Aunque a simple vista os pueda parecer un elemento muy simple, recordad que son los elementos que están en contacto con la superficie y pemiten que el robot se desplace con seguridad. Por lo tanto deben mantenerse limpias y en perfecto estado.</p>
+<p>En la siguiente <strong>imagen</strong> os muestro cómo son:</p>
+<p><img src="CAmaras2.png" alt="Imagen de la banda de rodadura. Se puede ver de frente y de perfil. Además, se destaca un detalle importante." title="Bada de rodadura" style="display: block; margin-left: auto; margin-right: auto;" width="559" height="455"></p>
+<p>En la imagen anterior habéis observado que se ha resaltado un detalle. A continuación vamos a hablar de él:</p>
+<ul>
+<li><strong>Detalle</strong>: si os fijáis bien, podéis apreciar que hay <strong>cuatro pestañas</strong> que sobresalen. Estas pestañas <strong>deben encajar</strong> perfectamente en los <strong>huecos</strong> que hay en las <strong>llantas</strong>.</li>
+</ul>
+<h2>6. La placa</h2>
+<p>La placa es la <strong>parte más importante del Maqueen</strong>, y sobre ella ensamblaremos los demás elementos.</p>
+<p>En la siguiente imagen podéis ver la placa por su cara superior. Además, se ha señalado con números (1, 2, 3 y 4) dónde irán colocados el resto de elementos.</p>
+<p style="text-align: center;"><img src="Placa_2.png" alt="Imagen de la placa del Maqueen indicando mediante números del 1 al 4 donde irán ensambladas el resto de sus partes." title="Placa" width="559" height="455"></p>
+<p style="text-align: left;">El montaje es muy sencillo, los números de la imagen anterior os indican las zonas de ensamblaje. A continuación tenéis todos los detalles:</p>
+<ol>
+<li style="text-align: left;"><a href="#ta6b1f0ce-642c-b8d4-8f5f-176813bb8872" id="linka6b1f0ce-642c-b8d4-8f5f-176813bb8872" class="exe-tooltip definition-tt titled-tt" title="Eje | Enlace al término Eje del diccionario">Eje</a> del motor, hay uno a la izquierda y otro a la derecha. Aquí irán <strong>colocadas las ruedas</strong>. Es <strong>importante</strong> que os fijéis que este elemento <strong>tiene una parte plana</strong>. Si no lo hacéis bien, la rueda no entrará.</li>
+<li style="text-align: left;">Parte superior de los motores. Aquí se colocará el <strong>material adhesivo</strong>.</li>
+<li style="text-align: left;">Conector de <strong>alimentación</strong>. Aquí debes conectar el cable del portapilas. <strong>Importante, sólo tiene una posición</strong>.</li>
+<li style="text-align: left;">Conector para el <strong>sensor de ultrasonidos</strong>. Recuerda que debe colocarse <strong>mirando hacia adelante</strong>.</li>
+</ol>
+</div>
+<p>Ahora <strong>ya conocéis </strong>todos los elementos de vuestro robot Maqueen.</p>
+<p>Vuestro profesor o profesora os deberá facilitar el Maqueen desmontado para que seáis vosotros los auténticos "<strong>mecánicos y mecánicas</strong>" de robots.</p>
+<p>Es el momento de empezar a <strong>montarlo</strong>.</p>
+<p>En el siguiente botón tenéis las <strong>instrucciones técnicas</strong> del montaje del Maquen:</p>
+<div id="t5b7c9dd0-fd7a-34b1-6726-c7a576b119b2" class="exe-tooltip-text">
+<p><img src="Llantas_1.png" alt="Imagen donde se muestra la llanta del robot Maqueen, tanto su cara exterior como la interior." title="Llanta" style="float: left; margin-right: 10px; margin-left: 10px;" width="100" height="100"> <strong>Definición:</strong></p>
+<p>Plural de llanta. Es una pieza, generalmente de metal, de forma circular sobre la que se monta el neumático.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Los coches, las motos e incluso tu bici dispone de ellas.</p>
+</div>
+<div id="t0008704b-25cd-7cfa-7de0-bea13ed353bc" class="exe-tooltip-text">
+<p><img src="BandaRodadura.jpg" alt="Imagen de dos bandas de rodadura. En ellas se puede apreciar los dibujos de los surcos que favorecen el agarre a la superficie." title="Banda Rodadura" style="float: left; margin-right: 10px; margin-left: 0px;" width="100" height="100"></p>
+<p><strong>Ejemplo:</strong></p>
+<p>Parte exterior de la rueda que está en contacto con el suelo. Están fabricadas de un plástico especial que favorecen el agarre a la superficie.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Las ruedas del robot Maqueen llevan bandas de rodadura para evitar que puedan patinar.</p>
+</div>
+<div id="ta6b1f0ce-642c-b8d4-8f5f-176813bb8872" class="exe-tooltip-text">
+<p><img src="https://blogsaverroes.juntadeandalucia.es/diccionario/files/2022/07/IMAG_MAT1PRI_REA-04_FASE4.4_EJE-150x150.png" alt="La Imagen Muestra Un Dibujo Del Planeta Tierra Atravesado Por Una Línea Y En La Parte Superior Junto A La Línea La Palabra Eje." title="Eje" style="float: left; margin-right: 10px; margin-left: 0px;" width="100" height="100"></p>
+<p><strong>Ejemplo:</strong></p>
+<p>El eje es una línea que atraviesa un cuerpo. El cuerpo gira alrededor del eje.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>El eje de la Tierra está inclinado.</p>
+</div>
+<div id="tf435325d-ecda-8467-60b0-2c634c744c08" class="exe-tooltip-text">
+<p><img src="MurciAlago.png" alt="Imagen de un murciélago volando en la oscuridad." title="Murciélago" style="float: left; margin-right: 10px; margin-left: 0px;" width="100" height="100"> <strong>Definición:</strong></p>
+<p>Es una onda cuya frecuencia es de un valor muy elevado, el ser humano no puede oírlos.</p>
+<p><strong>Ejemplo:</strong></p>
+<p>Los murciélagos usan estos sonidos para evitar chocar con los objetos.</p>
+</div></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Instrucciones técnicas</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-paginated">
+<h2>1. Montamos las ruedas</h2>
+<p>Váis a necesitar las llantas y las bandas de rodadura.</p>
+<p>Debe quedar como la siguiente figura:</p>
+<p><img src="Ruedas2.png" alt="Imagen de las ruedas del Maqueen, una vez colocadas las bandas de rodadura en las llantas. Se recuerda dos detalles importantes." title="Ruedas Maqueen" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="560"></p>
+<p>Los <strong>círculos rojos</strong> de la imagen resaltan dos detalles muy importantes que debéis tener en cuenta.</p>
+<p>Si no lo recordáis, poder ver la información sobre las <strong>llantas</strong> y la <strong>banda de rodadura.</strong></p>
+<h2>2. Unir las ruedas a la placa</h2>
+<p>Este paso es muy fácil, pero debéis tener en cuenta dos cosas:</p>
+<ol>
+<li>La llanta tiene una <strong>cara exterior y otra interior</strong>.</li>
+<li>El eje de la placa tiene una <strong>parte plana</strong> que debe coincidir con la de la llanta.</li>
+</ol>
+<p>La siguiente imagen os muestra como debe quedar:</p>
+<p><img src="Placa_Ruedas.png" alt="Imagen donde se puede ver la placa con las ruedas colocadas." title="Placa_Ruedas" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="560"></p>
+<h2>3. Colocamos el sensor ultrasónico</h2>
+<p>Ahora vamos a ensamblar el sensor a la placa, recuerda que deber mirar hacia adelante.</p>
+<p>En la siguiente figura podéis verlo cómo quedaría:</p>
+<p><img src="Placa_Ruedas_sensor2.png" alt="Imagen donde se muestra la placa con las ruedas y el sensor ensamblados. Además, dos flechas rojas indica la posición de montaje del sensor." style="display: block; margin-left: auto; margin-right: auto;" title="Placa_Ruedas_Sensor" width="560" height="560"></p>
+<p>Las <strong>flechas rojas</strong> os indican cómo debe quedar montado el sensor.</p>
+<h2>4. Colocamos el material adhesivo</h2>
+<p>Recordad que el material adhesivo es de doble cara.</p>
+<p>En esta fase sólo usaremos una cara, la otra la usaremos más adelante.</p>
+<p>¿Queréis ver cómo quedaría? En la siguiente imagen podéis verlo:</p>
+<p><img src="Placa_Ruedas_sensor_Adhesivo2.png" alt="Imagen del robot con el sensor, las ruedas y el material adhesivo colocado sobre los motores. Mediante unos rectángulos rojos se indica las zonas que deben quedan libres." style="display: block; margin-left: auto; margin-right: auto;" title="Placa_Ruedas_Sensor_Adhesivo" width="560" height="560"></p>
+<p>Seguro que os ha llamado la atención, de la imagen anterior, los <strong>rectángulos rojos</strong>. Estos rectángulos os indican que esos espacios <strong>no debéis taparlos</strong> con el material adhesivo.</p>
+<h2>5. Conectamos el portapilas a la placa</h2>
+<p>Para ello debéis <strong>ensamblar</strong> el conector del portapilas a la placa.</p>
+<p>En la siguiente imagen se puede ver mucho mejor:</p>
+<p><img src="Placa_Ruedas_sensor_Adhesivo_Conector2.png" alt="Imagen que muestra la conexión eléctrica del robot. Se muestra, mediante un recuadro rojo, el detalle de la conexión. El cable rojo debe ir al positivo y el cable negro al negativo." title="ConexiónElectrica" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="560"></p>
+<p>Debéis fijaros en el detalle, del rectángulo rojo, que se ve en la firgura anterior:</p>
+<ul>
+<li>El cable <strong>rojo</strong> debe estar junto al signo (+) de la placa, y el cable <strong>negro</strong> junto al (-).</li>
+</ul>
+<h2>6. ¡Colocamos el portapilas y terminamos!</h2>
+<p>Hemos llegado al final, sólo nos queda terminar de colocar el portapilas sobre el material adhesivo.</p>
+<p>Recuerda que debemos quitar el papel de protección.</p>
+<p>Fijaros en la siguiente imagen:</p>
+<p><img src="Maqueen_Montado2.png" alt="Imagen del robot Maqueen totalmente montado. Aparecen tres flechas rojas que indican cómo debe quedar el portapilas. " title="Maqueen montado" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="560"></p>
+<p>En la imagen anterior podéis ver tres detalles señalados con <strong>flechas rojas</strong>. Debéis colocar el portapilas sobre el material adhesivo dejando un <strong>espacio</strong> en los lugares indicados por las flechas.</p>
+<p>¡Enhorabuena!, acabáis de ganar el <strong>Título Oficial MM</strong> (Mecánico Maqueen).</p>
+</div></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-3"><h2><span class="sr-av">Clavis dice </span>Párate y piensa</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Piensa en todo lo que has tenido que poner en marcha para resolver esta actividad: habilidades personales, recursos propios y experiencias vividas previamente para poder realizar correctamente la actividad. Seguro que también os habéis encontrado con algunas dificultades que habéis tenido que solucionar durante la realización de la tarea.</p>
+<p>Recuerda que lo más importante es haber puesto en práctica todo lo aprendido. Por lo que es necesario que, antes de continuar, nos paremos a reflexionar sobre lo aprendido y valora qué habilidades tenías, con qué recursos contabas y cuáles han sido tus limitaciones a la hora de realizar estas tareas.</p>
+<p>Si quieres, puedes <strong>escribirlas en un papel</strong> y así verás lo mucho que has avanzado.</p>
+<p>¡Ánimo! ¡Lo estás haciendo genial!</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-1"><h2><span class="sr-av">Motus dice </span>¿Han surgido conflictos?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Piensa en todo lo que has tenido que poner en marcha para resolver la actividad y en las distintas <strong>emociones que has sentido</strong>. También, piensa en lo que han podido sentir tus compañeros o compañeras cuando se enfrentaban a la tarea. Podéis sentir <strong>inseguridad</strong>, <strong>nerviosismo</strong> o alegría al comprobar que había cosas que hacéis muy bien. Seguro que también han surgido dificultades y <strong>limitaciones</strong> porque habéis montado el Macqueen teniendo un solo robot para todo el grupo. Por eso, es normal que hayan surgido <strong>conflictos personales</strong> entre los miembros del grupo.</p>
+<p>Cuando trabajamos en grupo es importante <strong>apoyarnos</strong> mutuamente y no intentar hacerlo todo nosotros. Saber compartir y repartir tareas es algo muy importante en el trabajo en grupo. Pero también lo es conocer nuestras emociones y saber expresarlas cuando lo necesitamos para que, entre todos, lleguemos a un acuerdo y consigamos trabajar a gusto.</p>
+<p>Seguro que estaréis de acuerdo que cuando en el grupo hay un buen clima de trabajo, nos lo pasamos mucho mejor. Debéis <strong>recordar esta experiencia</strong>, ya que nos puede ayudar en actividades futuras.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-2"><h2><span class="sr-av">Kardia dice </span>¿Cómo se fabrican los neumáticos?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Seguro que a lo largo de esta actividad os habréis preguntados sobre los neumáticos de los vehículos que conocemos.</p>
+<p>Es cierto, los neumáticos también tienen una banda de rodadura y se montan sobre unas llantas. Pero, ¿cómo se fabrican?</p>
+<p>Os invito a ver el siguiente vídeo:</p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/VRWuwBd7QIE" width="560" height="314"></iframe><br>Recuerda que puedes activar los subtítulos del video si lo necesitas.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id2760">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">2. ¿Cómo se monta el Maqueen?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2760_998_2" class="block iDevice_content">
+<div class="exe-text"><p>Después de participar con tu grupo en el <strong>montaje</strong> del robot Maqueen, es el momento de comprobar lo que hemos aprendido.</p>
+<p>Te propongo unas actividades relacionadas con el montaje del robot, puedes elegir aquella que se adapte mejor a tus posibilidades.</p>
+<p>Yo te recomiendo que intentes hacerlas todas.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2761">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción A: Recuerdo cómo se montaba</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2761_999_2" class="block iDevice_content">
+<div class="exe-text"><p>¿Podrías explicar con <strong>tus palabras</strong> los pasos a seguir para <strong>ensamblar</strong> el robot Maqueen?</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_interactivo" id="id2762">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_interactivo.svg)"><h1 class="iDeviceTitle">Opción B: Encuentro las palabras clave </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2762_1000_2" class="block iDevice_content">
+<div class="exe-text"><p>Te presento el siguiente juego:</p>
+<p>Tienes que encontrar las <strong>palabras clave</strong> relacionadas con el montaje del robot, para ello te doy las <strong>definiciones</strong> correspondientes.</p>
+<div class="exe-game exe-hangman add-capital-letters">
+<div class="exe-game-content">
+<p class="exe-hangman-letters">abcdefghijklmnñopqrstuvwxyz</p>
+<dl>
+<dt>Es una pieza, generalmente de metal, de forma circular sobre la que se monta el neumático.</dt>
+<dd>bGxhbnRh</dd>
+<dt>Los murciélagos usan estos sonidos para evitar chocar con los objetos.</dt>
+<dd>VWx0cmFzb25pZG9z</dd>
+<dt>Acción que consiste en unir o encajar diferentes piezas o componentes de un objeto de forma adecuada.</dt>
+<dd>RW5zYW1ibGFy</dd>
+<dt>Sobre este elemento se monta la rueda</dt>
+<dd>RWpl</dd>
+<dt>Elemento importante que se conecta a la placa y permite el suministro de energía eléctrica</dt>
+<dd>UG9ydGFwaWxhcw==</dd>
+</dl>
+</div>
+<p class="exe-game-warning">Por favor active JavaScript para poder jugar a este juego.</p>
+</div>
+<p><br /><br /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2763">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción C: Elaboro una planificación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2763_1001_2" class="block iDevice_content">
+<div class="exe-text"><p>Ahora te planteo la siguiente actividad:</p>
+<p>Elabora un <strong>breve informe</strong> donde planifiques los pasos a seguir en el montaje del robot Maqueen.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2764">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción D: Analizo los detalles más importantes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2764_1002_2" class="block iDevice_content">
+<div class="exe-text"><p>Es el momento de analizar el ensamblaje del robot.</p>
+<p>Haz una lista de los <strong>detalles más importantes</strong> que hay que tener en cuenta durate el montaje del Maqueen.</p>
+<p>No es necesario que estén de forma ordenada.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id2765">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">3. Nuestro Maqueen viene bien equipado</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2765_994_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Después de conocer todos los elementos que forman el robot, y de ensamblarlo. Es el momento de conocer todos los componentes que podemos encontrar en la placa del robot. Ya veréis que son muchos, pero no os asustéis será muy fácil conocerlos todos.</p>
+<p>Os presento unas <strong>imágenes interactivas</strong> con las que váis a conocer mucho mejor a nuestro robot <strong>Maqueen</strong>.</p>
+<p>En la <strong>primera</strong>,&nbsp; podréis conocer los <strong>elementos</strong> que componen la <strong>cara superior</strong> de la placa. En la <strong>segunda</strong>, los <strong>elementos</strong> de la <strong>cara inferior</strong>.</p>
+<p>Recordad que estas actividades podéis hacerlas en <strong>pareja</strong> y ayudaros mútuamente.</p>
+<div class="exe-fx exe-paginated">
+<h2>Cara superior</h2>
+<p>Si cogemos nuestro robot y lo miramos desde arriba podremos encontrar muchos componentes. Para que os sea más fácil identificarlos en la imagen inferior se han relacionado con un número.</p>
+<p>En la imagen, si hacéis clic sobre <strong>círculo de información</strong> que hay al lado de cada número, podréis saber más sobre ese componente.</p>
+<p style="text-align: center;"><iframe src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=2171" allowfullscreen="allowfullscreen" width="560" height="438"></iframe></p>
+<p style="text-align: left;">A continuación os <strong>describo</strong> los <strong>componentes</strong>, de la <strong>cara superior</strong> de la placa, que vais a necesitar para realizar vuestro trabajo:</p>
+<ul>
+<li style="text-align: left;"><strong>Componente 1</strong>. Diodo LED rojo izquierdo, se controla desde el pin 8.</li>
+<li style="text-align: left;"><strong>Componente 3</strong>. Micro LED rojo que indica que la placa está conectada.</li>
+<li style="text-align: left;"><strong>C</strong><strong>omponente 5</strong>. Conector de alimentación. Admite entre 3,5 y 5 voltios. Vais a necesitar 3 pilas AAA.</li>
+<li style="text-align: left;"><strong>Componente 6</strong>. Slot para conectar nuestra placa Micro:bit.</li>
+<li style="text-align: left;"><strong>Componente 7</strong>. Motor izquierdo con reductora de engrajes metálicos.</li>
+<li style="text-align: left;"><strong>Componente 8</strong>. Interruptor principal. Desde aquí podrás enceder y apagar tu robot Maqueen.</li>
+<li style="text-align: left;"><strong>Componente 9</strong>. LED rojo derecho, se controla desde el pin 12.</li>
+<li style="text-align: left;"><strong>Componente 10</strong>. Slot para conectar el sensor de ultrasonidos. Es compatible con los modelos HC-SR04 y HC-SR04P.</li>
+<li style="text-align: left;"><strong>Componente 11</strong>. Interruptor para activar o desactivar el sonido. Este elemento se controla desde el Pin 0.</li>
+<li style="text-align: left;"><strong>C</strong><strong>omponente 14</strong>. Buzzer o altavoz.</li>
+<li style="text-align: left;"><strong>Componente 15</strong>. Motor derecho.<strong></strong></li>
+</ul>
+<h2>Vista inferior</h2>
+<p>Ahora podéis conecer los elementos de nuestro robot desde su <strong>cara inferior</strong>.</p>
+<p>Si le dais la vuelta, podéis conocer cada componente. En la siguiente imagen podéis encontrar <strong>toda la información haciéndo</strong> <strong>clic</strong>.</p>
+<p style="text-align: center;"><iframe src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=2209" allowfullscreen="allowfullscreen" width="560" height="437"></iframe><br><br></p>
+<p style="text-align: left;">A continuación os <strong>describo</strong> los <strong>componentes</strong>, de la <strong>cara inferior</strong> de la placa, que vais a necesitar para realizar vuestro trabajo:</p>
+<ul>
+<li style="text-align: left;"><strong>Componente 2</strong>. LED RGB 3. Nuestro robot dispone de cuatro LED RGB, todos se controlan desde el pin 15. Estos diodos nos ofrecen la posibiidad de emitir tres colores: Rojo, verde y azul.</li>
+<li style="text-align: left;"><strong>Componente 3</strong>. LED RGB 2.</li>
+<li style="text-align: left;"><strong>C</strong><strong>omponente 5</strong>. LED RGB 0.</li>
+<li style="text-align: left;"><strong>Componente 6</strong>. LED RGB 1.</li>
+</ul>
+</div></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id2766">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">4. Ahora voy repasar los componentes de la placa</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2766_998_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>La actividad anterior ha sido muy completa y has aprendido todo sobre los componentes que hay en la placa del Maqueen, tanto en su cara superior como inferior.</p>
+<p>En esta actividad dispones de <strong>cuatro opciones</strong>, puedes elegir aquella con la que te sientas mejor. Siempre <strong>puedes intentar hacerlas todas</strong>, de esta forma vas a aprender mucho más.</p>
+<p>¡Esto comienza ya!</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id2767">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: ¿Cuántos componentes recuerdo?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-2767_120">
+<form name="multi-select-form-2767_120" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2767_120" class="block question iDevice_content">
+<p>A continuación te muestro una lista de componentes. Marca aquellos que recuerdes que están en la placa del Maqueen.</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1200" class="sr-av"><a href="#answer-2767_123">Opción 1</a></label><input type="checkbox" id="op2767_1200" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_123"><div id="taans2767_123" class="block iDevice_content">
+<p>LED rojo</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1200" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1201" class="sr-av"><a href="#answer-2767_275536">Opción 2</a></label><input type="checkbox" id="op2767_1201" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275536"><div id="taans2767_275536" class="block iDevice_content">
+<p>LED verde</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1201" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1202" class="sr-av"><a href="#answer-2767_275540">Opción 3</a></label><input type="checkbox" id="op2767_1202" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275540"><div id="taans2767_275540" class="block iDevice_content">
+<p>Motores</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1202" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1203" class="sr-av"><a href="#answer-2767_275555">Opción 4</a></label><input type="checkbox" id="op2767_1203" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275555"><div id="taans2767_275555" class="block iDevice_content">
+<p>Altavoz</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1203" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1204" class="sr-av"><a href="#answer-2767_275557">Opción 5</a></label><input type="checkbox" id="op2767_1204" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275557"><div id="taans2767_275557" class="block iDevice_content">
+<p>Micrófono</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1204" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1205" class="sr-av"><a href="#answer-2767_275559">Opción 6</a></label><input type="checkbox" id="op2767_1205" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275559"><div id="taans2767_275559" class="block iDevice_content">
+<p>Sensor de ultrasonidos</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1205" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1206" class="sr-av"><a href="#answer-2767_275561">Opción 7</a></label><input type="checkbox" id="op2767_1206" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275561"><div id="taans2767_275561" class="block iDevice_content">
+<p>Sensor de temperatura</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1206" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op2767_1207" class="sr-av"><a href="#answer-2767_275571">Opción 8</a></label><input type="checkbox" id="op2767_1207" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-2767_275571"><div id="taans2767_275571" class="block iDevice_content">
+<p>Placa micro:bit</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-2767_1207" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-8-2767_120" /> 
+</p>
+</div>
+<section id="f2767_120" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+<div id="tafeedback2767_120" class="feedback iDevice_content">
+<p>En la actividad <strong>3. Nuestro Maqueen viene bien equipado</strong>, puedes encontrar toda esta información y mucho más.</p>
+<p>Te invito a volver a verla para mejorar tus conocimientos.</p>
+</div>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-2767_123" class="right">Correcto</a></li>
+<li><a href="#answer-2767_275536" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-2767_275540" class="right">Correcto</a></li>
+<li><a href="#answer-2767_275555" class="right">Correcto</a></li>
+<li><a href="#answer-2767_275557" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-2767_275559" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-2767_275561" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-2767_275571" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2768">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Ahora te lo dibujo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2768_1003_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Hemos comprobado que nuestro Maqueen viene muy bien equipado.</p>
+<p>¿Serías capaz hacer un <strong>dibujo de la placa</strong> Maqueen e indicar los <strong>componentes</strong> que la forman?</p>
+<p>Si no te acuerdas de todos no pasa nada, <strong>lo importante es que lo intentes</strong>.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2769">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción C: Busco una aplicación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2769_1004_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Sabes que nuestro robot dispone de un sensor de <strong>ultrasonidos</strong>.</p>
+<p>¿Serías capaz de encontrar <strong>una aplicación práctica</strong> de este componente?</p>
+<p>Si lo expresas <strong>con tus palabras</strong>, mucho mejor.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2770">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción D: Saco mis conclusiones</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2770_1005_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Después de estudiar a fondo los componentes que forman la placa del Maqueen. <strong>Reflexiona</strong> sobre aquellos <strong>componentes</strong> que consideres más importantes y <strong>razona</strong> tu respuesta.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="44_aprendemos_todo_lo_necesario.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>

@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4.4.2 Nuestro editor de código | Robotica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-27"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Robotica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Aprendiendo sobre Robots</a></li>
+   <li><a href="1_qu_vamos_a_hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a></li>
+   <li><a href="2_nuestra_placa_robtica.html" class="daddy">2. Nuestra placa robótica</a>
+   <ul class="other-section">
+      <li><a href="21_exploramos_la_placa.html" class="no-ch">2.1. Exploramos la placa</a></li>
+      <li><a href="22_el_cerebro_de_nuestro_robot.html" class="daddy">2.2. El cerebro de nuestro robot</a>
+      <ul class="other-section">
+         <li><a href="221_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+      </ul>
+      </li>
+      <li><a href="23_entradas_procesamiento_y_salidas.html" class="no-ch">2.3. Entradas, procesamiento y salidas</a></li>
+      <li><a href="24_pines_y_algunos_actuadores_jugando_con_nuestra_microbit.html" class="no-ch">2.4 Pines y algunos actuadores: jugando con nuestra Microbit</a></li>
+   </ul>
+   </li>
+   <li><a href="3_los_sensores_de_nuestro_robot.html" class="daddy">3. Los Sensores de nuestro robot</a>
+   <ul class="other-section">
+      <li><a href="31_activamos_nuestros_sentidos_perdn_sensores.html" class="no-ch">3.1 Activamos nuestros sentidos, perdón sensores</a></li>
+      <li><a href="32_la_importancia_de_los_sensores.html" class="no-ch">3.2 La importancia de los sensores</a></li>
+      <li><a href="33_el_sentido_de_los_sensores.html" class="daddy">3.3. El sentido de los sensores</a>
+      <ul class="other-section">
+         <li><a href="331_seales_de_vida.html" class="no-ch">3.3.1. Señales de vida</a></li>
+         <li><a href="332_veamos_si_mi_robot_detecta_algo.html" class="no-ch">3.3.2. Veamos si mi robot detecta algo</a></li>
+         <li><a href="333_programamos_con_makecode.html" class="no-ch">3.3.3. Programamos con MakeCode</a></li>
+         <li><a href="334_cmo_prefieres_ver_lo_que_miden_los_sensores.html" class="no-ch">3.3.4. ¿Cómo prefieres ver lo que miden los sensores?</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="4_proyecto_nos_desplazamos_con_seguridad.html" class="current-page-parent daddy">4. Proyecto: Nos desplazamos con seguridad.</a>
+   <ul>
+      <li><a href="41_comenzamos_a_movernos.html" class="no-ch">4.1. Comenzamos a movernos</a></li>
+      <li><a href="42_hacemos_memoria.html" class="no-ch">4.2. ¿Hacemos memoria?</a></li>
+      <li><a href="43_conoce_a_nuestros_tres_protagonistas.html" class="no-ch">4.3. Conoce a nuestros tres protagonistas</a></li>
+      <li class="current-page-parent"><a href="44_aprendemos_todo_lo_necesario.html" class="current-page-parent daddy">4.4. Aprendemos todo lo necesario</a>
+      <ul>
+         <li><a href="441_os_presento_al_robot_maqueen.html" class="daddy">4.4.1. Os presento al robot Maqueen</a>
+         <ul class="other-section">
+            <li><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="no-ch">4.4.1.1 ¿Cómo funciona el sensor ultrasónico?</a></li>
+         </ul>
+         </li>
+         <li id="active"><a href="442_nuestro_editor_de_cdigo.html" class="active no-ch">4.4.2 Nuestro editor de código</a></li>
+         <li><a href="443_programamos_la_placa_controladora.html" class="no-ch">4.4.3. Programamos la placa controladora</a></li>
+      </ul>
+      </li>
+      <li><a href="45_ahora_toca_programar.html" class="no-ch">4.5. Ahora toca programar</a></li>
+      <li><a href="46_es_la_hora_de_compartir.html" class="no-ch">4.6. Es la hora de compartir</a></li>
+      <li><a href="47_sacamos_conclusiones.html" class="no-ch">4.7. Sacamos conclusiones</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="443_programamos_la_placa_controladora.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4.4.2 Nuestro editor de código</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id2771">
+<div class="iDevice emphasis0" >
+<div id="ta2771_949_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="retor_adultos_sin_bocadillo.gif" alt="Retor dice |" title="Retor" style="float: left; margin-right: 10px; margin-left: 10px;" width="250" height="250" /> Como ya sabes, necesitamos programar nuestra placa micro:bit con un <strong>lenguaje de programación</strong>.</p>
+<p>Pero, ¿<strong>dónde</strong> vamos a escribir nuestros programas?</p>
+<p>De todo esto trata este apartado.</p>
+<p>Como os podéis imaginar <strong>vamos a ver cosas muy importantes</strong> que no os podéis perder.</p>
+<p>¡Prepárate y no te lo pierdas!</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id2772">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">1. Conoce tu editor de código</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2772_947_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Ha llegado el momento de conocer el <strong>editor de código</strong> que vamos a utilizar para crear nuestros programas.</p>
+<p>A continuación os presento un <strong>material gráfico</strong> que os va a resultar muy sencillo y fácil de seguir.</p>
+<div class="exe-fx exe-paginated" style="text-align: center;">
+<h2 style="text-align: left;">¿Cómo accedemos?</h2>
+<p style="text-align: left;">Para acceder a la página principal de micro:bit debéis <a href="https://www.microbit.org/es-es/" target="_blank" title="Accede a la página web de micro:bit" rel="noopener">hacer clic aquí</a>.</p>
+<p style="text-align: left;">En la siguiente imagen podéis ver los <strong>elementos</strong> más importantes. Se ha añadido un <strong>número</strong> para que sea más fácil identificarlos.</p>
+<div style="text-align: center;">
+<div style="text-align: center;"><a href="PaginaMicrobit.png" target="_blank" rel="lightbox noopener" title="Accede a la ampliación de la imagen principal"><img src="PaginaMicrobit.png" alt="Imagen donde se ve la página principal de Microbit.org. Además, se han añadido unos números que más adelante se explicarán." title="Página Microbit.org" width="560" height="261"></a></div>
+Haz clic para ampliar la imagen</div>
+<div style="text-align: left;"></div>
+<div style="text-align: left;">A continuación os voy a <strong>explicar todos los números</strong> que aparecen en la imagen anterior:</div>
+<ol>
+<li style="text-align: left;"><strong>Empieza. </strong>Aquí encontraréis información muy interesante para empezar. Como por ejemplo:
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">Primeros pasos.</li>
+<li style="text-align: left;">Guía del usuario.</li>
+<li style="text-align: left;">Aprendizaje en casa.</li>
+</ul>
+</li>
+<li style="text-align: left;"><strong>Proyectos</strong>. Aquí podéis encontrar ejemplos de proyectos explicados paso a paso.</li>
+<li style="text-align: left;"><strong>Enseñar</strong>. Espacio para tu profesor o profesora.</li>
+<li style="text-align: left;"><strong>Vamos a programar</strong>. Como indica su nombre, desde aquí podéis acceder a los diferentes lenguajes de programación. Los más interesantes son:
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">MakeCode editor. Editor de programación con bloques.</li>
+<li style="text-align: left;">Python editor. Editor de programación con texto. Recordar que nosotros vamos a utilizar este modo de programación.</li>
+</ul>
+</li>
+<li style="text-align: left;"><strong>Impacto</strong>. Descubre historias inspiradoras de otros alumnos y alumnas del mundo.</li>
+<li style="text-align: left;"><strong>Comprar</strong>. Aquí aparecen multitud de colaboradores que venden material de robótica.</li>
+<li style="text-align: left;"><strong>Noticias</strong>. Espacio dedicado a las últimas noticias sobre la micro:bit.</li>
+<li style="text-align: left;"><strong>Aprende más</strong>. Desde aquí podéis acceder a toda la información sobre el editor de código.</li>
+<li style="text-align: left;"><strong>Da tus primeros pasos</strong>. Os enseña todos los pasos que debéis seguir para empezar a programar.</li>
+<li style="text-align: left;"><strong>Idioma</strong>. Aquí podrás seleccionar el idioma con el que te sientas más a gusto.</li>
+<li style="text-align: left;"><strong>micro:bit</strong>. Desde aquí volverás a la pantalla inicial.</li>
+</ol>
+<h2 style="text-align: left;">Editor Python</h2>
+<p style="text-align: left;">Este <a href="https://python.microbit.org/v/beta" target="_blank" title="Accede a la página web del Editor de código V3 de microbit.org" rel="noopener">nuevo editor</a> viene con muchas mejoras, gracias a ellas vuestro trabajo será mucho más fácil.</p>
+<p style="text-align: left;">En la siguiente <strong>actividad interactiva </strong>encontraréis la información más importante acerca del editor.</p>
+<p style="text-align: left;">En la <strong>imagen</strong> encontraréis <strong>dieciocho números</strong> que indican diferentes elementos o zonas del editor. A cada número se le ha asociado un <strong>punto interactivo</strong>, haciendo <strong>clic</strong> en él podréis <strong>acceder a la información</strong>.</p>
+<div style="text-align: center;"><iframe src="https://blogsaverroes.juntadeandalucia.es/ejerciciosrea/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=1837" width="850" height="534">
+        </iframe></div>
+<p style="text-align: left;">A continuación, te muestro toda la información de la imagen anterior:</p>
+<ol>
+<li style="text-align: left;"><strong>Micro:bit</strong>. Desde aquí podrás acceder a la página de microbit.org.</li>
+<li style="text-align: left;"><strong>Referencias</strong>. Desde aquí puedes explorar el lenguaje Python y las características de tu micro:bit. Por ejemplo: <br>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">Variables (uso de las variables).</li>
+<li style="text-align: left;">Pantalla (diferentes formas de usar la matriz de LEDs).</li>
+<li style="text-align: left;">Botones (ejemplos de código para usar los pulsadores A y B).</li>
+<li style="text-align: left;">...</li>
+</ul>
+</li>
+<li style="text-align: left;"><strong>Ideas</strong>. Aquí podéis encontrar proyectos que os pueden servir de inspiración. Además, puedes reutilizarlos.</li>
+<li style="text-align: left;"><strong>API</strong>. API, Interfaz de Programación de Aplicaciones. Es un conjunto de código que facilita la programación. Podemos encontrar: <br>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">gc, podemos gestionar la memoria de nuestros programas.</li>
+<li style="text-align: left;">log, permite gestionar un historial de datos con la micro:bit.</li>
+<li style="text-align: left;">machine, utilidades de bajo nivel.</li>
+<li style="text-align: left;">...</li>
+</ul>
+</li>
+<li style="text-align: left;"><strong>Proyectos</strong>. Desde aquí podrás definir tus proyectos.</li>
+<li style="text-align: left;"><strong>Ajustes</strong>. Puedes acceder a:
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">Idioma, te permite cambiar el idioma. Por ahora, en inglés y en francés.</li>
+<li style="text-align: left;">Configuración, puedes personalizar el editor.</li>
+</ul>
+</li>
+<li style="text-align: left;"><strong>Buscar</strong>. Permite buscar contenido dentro de las pestañas: Reference y API. ¡Cuidado!, debes escribir la palabra completa.</li>
+<li style="text-align: left;"><strong>Contraer/Desplegar</strong>. Permite aumentar el espacio de la zona de trabajo.</li>
+<li style="text-align: left;"><strong>Nombre del proyecto</strong>. Aquí podemos cambiar el nombre de nuestro proyecto.</li>
+<li style="text-align: left;"><strong>Zoom</strong>. Podemos hacer zoom+ para acercar o zoom- para alejar.</li>
+<li style="text-align: left;"><strong>Hacer/Deshacer</strong>. Permite hacer o deshacer los últimos cambios.</li>
+<li style="text-align: left;"><strong>Enviar a la micro:bit</strong>. Permite enviar nuestros programas a la microbit, es importante seguir los pasos que nos indican. También debes saber que con el navegador Mozilla Firefox se pueden dar problemas de vinculación.</li>
+<li style="text-align: left;"><strong>Guardar</strong>. Desde aquí podemos guardar nuestro proyecto en el ordenador. Esta opción es la recomendada.</li>
+<li style="text-align: left;"><strong>Abrir</strong>. Permite cargar un programa desde nuestro ordenador.</li>
+<li style="text-align: left;"><strong>Zona de trabajo</strong>. Aquí podemos escribir nuestro código.</li>
+<li style="text-align: left;"><strong>Simulador</strong>. Simulador de la placa micro:bit. Gracias a él, podemos comprobar inmediatamente el resultado de nuestro programa.</li>
+<li style="text-align: left;"><strong>Consola serie</strong>. En esta ventana podremos realizar el seguimiento de los cambios en una o más variables.</li>
+<li style="text-align: left;"><strong>Modificación de parámetros</strong>. Cuando activamos el modo simulación de la placa micro:bit, desde aquí podremos modificar parámetros externos como: <br>
+<ul style="list-style-type: disc;">
+<li style="text-align: left;">El nivel de luz.</li>
+<li style="text-align: left;">La temperatura.</li>
+<li style="text-align: left;">Posición de la brújula.</li>
+<li style="text-align: left;">Nivel de ruido.</li>
+<li style="text-align: left;">Pulsación de los botones.</li>
+<li style="text-align: left;">...</li>
+</ul>
+</li>
+</ol>
+<h2 style="text-align: left;">Características del editor de código</h2>
+<p style="text-align: left;">Nuestro editor de código posee unas características muy interesantes que nos van a ayudar a escribir nuestros programas.</p>
+<p style="text-align: left;">En la siguiente imagen se indican con unas flechas rojas.</p>
+<p style="text-align: left;"><img src="CaracteristicasEditor.png" alt="Imagen del editor de código Python V3, donde se resaltan las características de indentación, resaltado de palabras, aviso de errores y autocompletado con su ventana de ayuda." title="Características Editor" style="display: block; margin-left: auto; margin-right: auto;" width="560" height="448"> A continuación os explico cuáles son las características:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul style="overflow: hidden; list-style-type: square;">
+<li style="text-align: left;"><strong>Aviso de errores</strong>, el editor nos avisa cuando escribimos un error en nuestro programa.</li>
+<li style="text-align: left;"><strong>Resaltado de palabras</strong>, cuando el editor <strong>reconoce una palabra</strong>, dependiendo de la función que desempeñe, le <strong>cambia el color</strong> de letra.</li>
+<li style="text-align: left;"><strong>Autocompletado</strong>, esta característica es muy importante. Cuando escribimos una palabra que el editor reconoce, éste nos ofrece una <strong>palabra recomendada</strong> y al pulsar enter se escribirá de forma automática. Además, nos ofrece una <strong>ayuda en línea</strong> de la función que desempeña dicha palabra. En la imagen superior intentamos escribir <em>disp </em>y el editor nos ofrece la palabra <em>display.</em></li>
+<li style="text-align: left;"><strong>Indentación</strong>, es el desplazamiento de un bloque de texto a la derecha. En la figura puede verse cómo debajo de while True: el texto está desplazado a la derecha. Esto significa que dicha línea de código pertenece al bloque while True:</li>
+</ul>
+</li>
+</ul>
+</div></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-2"><h2><span class="sr-av">Kardia dice </span>¿Quieres conocer la Guía del usuario?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Siempre es interesante buscar más información sobre un tema que estemos estudiando.</p>
+<p>Os recomiendo que veáis la <a href="https://microbit.org/get-started/user-guide/python-editor/" target="_blank" title="Accede a la página web Guía del usuario de Microbit.org" rel="noopener">Guía del usuario</a> del Editor de Código de Python.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_coproducciontxt" id="id2773">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_coproducciontxt.svg)"><h1 class="iDeviceTitle">2. Analizamos el editor de código</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2773_947_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En la actividad anterior hemos visto el <a href="https://python.microbit.org/v/beta" target="_blank" title="Accede al editor de código Python de microbit.org" rel="noopener">Editor de código</a> para Python.</p>
+<p>El editor será muy importante en el desarrollo de vuestro reto.</p>
+<p>Debéis contestar a las siguientes preguntas:</p>
+<ol>
+<li>¿Qué zona crees que es la más importante?, ¿por qué?</li>
+<li>¿Qué <strong>aspectos</strong> destacarías del editor? Justifica tu respuesta.</li>
+<li>¿Qué <strong>ventajas</strong> crees que ofrece el simulador?</li>
+</ol>
+<p>Para realizar esta actividad debéis tener en cuenta:</p>
+<ul>
+<li>Trabajar en <strong>grupo</strong> para encontrar la información.</li>
+<li>Cada miembro del equipo anotará la respuesta a cada pregunta. Esto lo podrá hacer:
+<ul>
+<li>En su <strong>cuaderno de clase</strong>.</li>
+<li>Utiizando el <strong>ordenador</strong> para escribir la información.</li>
+<li>Utilizando un <strong>documento rellenable</strong>. Este documento lo podéis encontrar al final de este documento.</li>
+</ul>
+</li>
+</ul></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-1"><h2><span class="sr-av">Motus dice </span>¿Cómo te has sentido?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Seguro que esta actividad te ha despertado muchas emociones.</p>
+<p>Te invito a que reflexiones sobre las siguientes cuestiones:</p>
+<ul>
+<li>¿Has <strong>participado de forma activa</strong> en tu grupo?, ¿cómo te has sentido?</li>
+<li>¿En tu <strong>grupo reducido, has expuesto tu opinión</strong>?, ¿cómo valoras tu aportación?</li>
+<li>¿<strong>Has salido voluntario o voluntaria</strong> para exponer la decisión de tu grupo ante el resto de la clase?, ¿por qué?</li>
+</ul>
+<p>Recuerda, es importante reflexionar sobre cómo nos hemos sentido al hacer una actividad. De esta forma podremos mejorar en las siguientes.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2>Documento rellenable</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>El documento rellenable os ayudará a realizar la actividad.</p>
+<p style="text-align: center;"><a href="AnalizamosEditorCodigo.pdf" target="_blank" title="Accede al documento rellenable AnalizamosEditorCodigo.pdf" rel="noopener"><img src="AnalizamosCodigo.png" alt="Imagen del documento rellenable donde aparecen 4 recuadros a rellenar." title="Documento rellenable" width="200" height="247"></a></p>
+<p style="text-align: center;">Accede al docuemento AnalizamosEditorCodigo.pdf desde <a href="AnalizamosEditorCodigo.pdf" target="_blank" title="Accede al documento AnalizamosEditorCodigo.pdf" rel="noopener">aquí</a>.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id2774">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">3. ¿Qué he aprendido sobre los editores de código?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2774_947_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En este apartado has visto cómo utilizar el <strong>editor de código de Python</strong>.</p>
+<p>Es el momento de <strong>trabajar de forma individual</strong> y comprobar todo lo que has aprendido.</p>
+<p>Para ello, te planteo <strong>diferentes opciones</strong>. Elige aquella que consideres más apropiada a tus conocimientos. Si te resulta muy fácil, puedes hacer más.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice em_iDevice_question" id="id2775">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: ¿Con qué programamos?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2775_112" class="block iDevice_content">
+<p style="text-align: left;">Esta actividad es muy sencilla y estoy seguro de que la contestarás sin problemas.</p>
+<p style="text-align: left;">¿Recuerdas el <strong>aspecto del editor</strong> que vamos a utilizar para programar en Python?</p>
+<p style="text-align: left;">Te muestro <strong>tres imágenes</strong>, debes indicar <strong>cuál</strong> utilizarías para hacer tus programas con Python.</p>
+</div>
+<section class="question">
+<form name="true-false-form-0b2775" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b2775" class="block iDevice_content">
+<p style="text-align: center;"><img src="Pantalla_MakeCode.png" alt="Imagen de la pantalla de MakeCode." title="Pantalla 1" width="560" height="246" /></p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Sugerencia</h1>
+<div class="iDevice_hint_content js-hidden">
+<p>Puedes ver el apartado <strong>2. Analizamos el editor de código</strong>.</p></div>
+</section>
+<p class="iDevice_answer js-required">
+<label for="true0b2775"><input type="radio" name="option0b2775" id="true0b2775" class="exe-radio-option exe-radio-option-0-2-0b2775-truefalse" /> Verdadero</label> 
+<label for="false0b2775"><input type="radio" name="option0b2775" id="false0b2775" class="exe-radio-option exe-radio-option-1-2-0b2775-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b2775" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b2775-result" class="wrong">Falso</strong></p>
+<p>El editor de Python <strong>no utiliza bloques</strong>.</p>
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b2775" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 2</h1>
+<div id="taquestion1b2775" class="block iDevice_content">
+<p style="text-align: center;"><img src="Pantalla_Python.png" alt="Imagen de la pantalla del editor de código Python." title="Pantalla 2" width="560" height="274" /></p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Sugerencia</h1>
+<div class="iDevice_hint_content js-hidden">
+<p>Puedes ver el apartado <strong>2. Analizamos el editor de código</strong>.</p></div>
+</section>
+<p class="iDevice_answer js-required">
+<label for="true1b2775"><input type="radio" name="option1b2775" id="true1b2775" class="exe-radio-option exe-radio-option-0-2-1b2775-truefalse" /> Verdadero</label> 
+<label for="false1b2775"><input type="radio" name="option1b2775" id="false1b2775" class="exe-radio-option exe-radio-option-1-2-1b2775-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b2775" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s1b2775-result" class="right">Verdadero</strong></p>
+<p>Estaba seguro que lo sabías.</p>
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-2b2775" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 3</h1>
+<div id="taquestion2b2775" class="block iDevice_content">
+<p style="text-align: center;"><img src="Pantalla_Scratch.png" alt="Imagen de la pantalla de Scratch." title="Pantalla 3" width="560" height="243" /></p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Sugerencia</h1>
+<div class="iDevice_hint_content js-hidden">
+<p>Puedes ver el apartado <strong>2. Analizamos el editor de código.</strong></p></div>
+</section>
+<p class="iDevice_answer js-required">
+<label for="true2b2775"><input type="radio" name="option2b2775" id="true2b2775" class="exe-radio-option exe-radio-option-0-2-2b2775-truefalse" /> Verdadero</label> 
+<label for="false2b2775"><input type="radio" name="option2b2775" id="false2b2775" class="exe-radio-option exe-radio-option-1-2-2b2775-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s2b2775" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s2b2775-result" class="wrong">Falso</strong></p>
+<p>El editor de Python <strong>no utiliza bloques</strong>.</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2776">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Lo puedo explicar</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2776_950_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>¿Podrías <strong>explicar </strong>alguna <strong>característica</strong> que destacarías del <strong>editor de código Python</strong>?</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2777">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción C: Sobre el simulador</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2777_951_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Después de estudiar el editor de código, habrás comprobado que incorpora un <strong>simulador</strong> de la placa micro:bit.</p>
+<p>Ahora te pido que <strong>expliques </strong>con tus palabra la <strong>función</strong> que realiza este <strong>simulador</strong>.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id2778">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción D: Mi valoración personal</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2778_952_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En esta actividad te pido que seas <strong>crítico</strong> y aportes una <strong>reflexión</strong> sobre las <strong>ventajas e inconvenientes</strong> del editor de código Python.</p>
+<p>Por ejemplo:</p>
+<ul>
+<li><strong>Ventajas</strong>: Considero que el editor de código ofrece ...</li>
+<li><strong>Inconvenientes</strong>: Creo que en este aspecto el editor de código ...</li>
+</ul></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="443_programamos_la_placa_controladora.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>

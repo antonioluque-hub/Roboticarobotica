@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: es
+
+00:00:07.780 --> 00:00:12.820
+Hola, vamos a explicar en&nbsp;
+este vídeo el proceso completo&nbsp;
+
+00:00:12.820 --> 00:00:18.700
+de creación de un programa&nbsp;
+con el editor Python versión 3
+
+00:00:24.720 --> 00:00:33.000
+Lo primero que hay que hacer es importar todas&nbsp;
+las funciones de la librería de Micro:bit.
+
+00:00:37.380 --> 00:00:42.270
+También vamos a importar la librería random.
+
+00:00:45.120 --> 00:00:51.480
+Ahora, vamos a crear la variable&nbsp;
+número y le damos el valor inicial "0".&nbsp;
+
+00:00:51.480 --> 00:00:57.240
+Mediante la declaración &lt;While&gt;,&nbsp;
+"True"; creamos un bucle infinito.
+
+00:00:59.340 --> 00:01:03.900
+Fijaros cómo la siguiente línea&nbsp;
+se desplaza hacia la derecha.&nbsp;
+
+00:01:03.900 --> 00:01:06.240
+Esto se conoce como indentación.
+
+00:01:10.090 --> 00:01:16.060
+A la variable "número" le asignamos&nbsp;
+un número aleatorio entero,&nbsp;&nbsp;
+
+00:01:16.060 --> 00:01:20.950
+comprendido entre 0 y 9; ambos incluidos.
+
+00:01:30.670 --> 00:01:37.000
+Utilizamos la función "mostrar en&nbsp;
+pantalla" con los siguientes argumentos:&nbsp;
+
+00:01:37.000 --> 00:01:44.650
+mostrar variable número; esperar 1.000&nbsp;
+milisegundos; y limpiar pantalla.
+
+00:01:55.590 --> 00:02:01.140
+Con el operador "almohadilla"&nbsp;
+escribimos el comentario "Fin".&nbsp;
+
+00:02:01.140 --> 00:02:05.340
+Recordar que los comentarios&nbsp;
+no afectan al programa.
+
+00:02:08.480 --> 00:02:13.130
+Ahora, guardamos el proyecto en nuestro ordenador.
+
+00:02:13.130 --> 00:02:17.210
+Para cargar nuestro programa&nbsp;
+en la placa Micro:bit,&nbsp;
+
+00:02:17.210 --> 00:02:20.300
+nos vamos a la carpeta "descargas",&nbsp;
+
+00:02:20.300 --> 00:02:26.570
+seleccionamos el fichero, y lo&nbsp;
+arrastramos hasta la "unidad Micro:bit".
+
+00:02:34.350 --> 00:02:41.100
+Durante el proceso de carga, un led naranja&nbsp;
+de la placa Micro:bit estará parpadeando.
+
+00:02:43.120 --> 00:02:48.880
+Ahora, en la ventana auxiliar&nbsp;
+podéis ver a nuestra robot Zeny&nbsp;
+
+00:02:48.880 --> 00:02:52.900
+mostrándonos el resultado de nuestro programa.
+
+00:02:54.740 --> 00:02:58.580
+Un saludo y espero que os haya gustado el vídeo.
+

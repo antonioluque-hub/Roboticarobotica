@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>4.4.1.1 ¿Cómo funciona el sensor ultrasónico? | Robotica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-26"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Robotica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Aprendiendo sobre Robots</a></li>
+   <li><a href="1_qu_vamos_a_hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a></li>
+   <li><a href="2_nuestra_placa_robtica.html" class="daddy">2. Nuestra placa robótica</a>
+   <ul class="other-section">
+      <li><a href="21_exploramos_la_placa.html" class="no-ch">2.1. Exploramos la placa</a></li>
+      <li><a href="22_el_cerebro_de_nuestro_robot.html" class="daddy">2.2. El cerebro de nuestro robot</a>
+      <ul class="other-section">
+         <li><a href="221_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+      </ul>
+      </li>
+      <li><a href="23_entradas_procesamiento_y_salidas.html" class="no-ch">2.3. Entradas, procesamiento y salidas</a></li>
+      <li><a href="24_pines_y_algunos_actuadores_jugando_con_nuestra_microbit.html" class="no-ch">2.4 Pines y algunos actuadores: jugando con nuestra Microbit</a></li>
+   </ul>
+   </li>
+   <li><a href="3_los_sensores_de_nuestro_robot.html" class="daddy">3. Los Sensores de nuestro robot</a>
+   <ul class="other-section">
+      <li><a href="31_activamos_nuestros_sentidos_perdn_sensores.html" class="no-ch">3.1 Activamos nuestros sentidos, perdón sensores</a></li>
+      <li><a href="32_la_importancia_de_los_sensores.html" class="no-ch">3.2 La importancia de los sensores</a></li>
+      <li><a href="33_el_sentido_de_los_sensores.html" class="daddy">3.3. El sentido de los sensores</a>
+      <ul class="other-section">
+         <li><a href="331_seales_de_vida.html" class="no-ch">3.3.1. Señales de vida</a></li>
+         <li><a href="332_veamos_si_mi_robot_detecta_algo.html" class="no-ch">3.3.2. Veamos si mi robot detecta algo</a></li>
+         <li><a href="333_programamos_con_makecode.html" class="no-ch">3.3.3. Programamos con MakeCode</a></li>
+         <li><a href="334_cmo_prefieres_ver_lo_que_miden_los_sensores.html" class="no-ch">3.3.4. ¿Cómo prefieres ver lo que miden los sensores?</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="4_proyecto_nos_desplazamos_con_seguridad.html" class="current-page-parent daddy">4. Proyecto: Nos desplazamos con seguridad.</a>
+   <ul>
+      <li><a href="41_comenzamos_a_movernos.html" class="no-ch">4.1. Comenzamos a movernos</a></li>
+      <li><a href="42_hacemos_memoria.html" class="no-ch">4.2. ¿Hacemos memoria?</a></li>
+      <li><a href="43_conoce_a_nuestros_tres_protagonistas.html" class="no-ch">4.3. Conoce a nuestros tres protagonistas</a></li>
+      <li class="current-page-parent"><a href="44_aprendemos_todo_lo_necesario.html" class="current-page-parent daddy">4.4. Aprendemos todo lo necesario</a>
+      <ul>
+         <li class="current-page-parent"><a href="441_os_presento_al_robot_maqueen.html" class="current-page-parent daddy">4.4.1. Os presento al robot Maqueen</a>
+         <ul>
+            <li id="active"><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="active no-ch">4.4.1.1 ¿Cómo funciona el sensor ultrasónico?</a></li>
+         </ul>
+         </li>
+         <li><a href="442_nuestro_editor_de_cdigo.html" class="no-ch">4.4.2 Nuestro editor de código</a></li>
+         <li><a href="443_programamos_la_placa_controladora.html" class="no-ch">4.4.3. Programamos la placa controladora</a></li>
+      </ul>
+      </li>
+      <li><a href="45_ahora_toca_programar.html" class="no-ch">4.5. Ahora toca programar</a></li>
+      <li><a href="46_es_la_hora_de_compartir.html" class="no-ch">4.6. Es la hora de compartir</a></li>
+      <li><a href="47_sacamos_conclusiones.html" class="no-ch">4.7. Sacamos conclusiones</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="441_os_presento_al_robot_maqueen.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="442_nuestro_editor_de_cdigo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">4.4.1.1 ¿Cómo funciona el sensor ultrasónico?</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id2752">
+<div class="iDevice emphasis0" >
+<div id="ta2752_1080_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="retor_adultos_sin_bocadillo.gif" alt="Retor dice" title="Retor" style="float: left; margin-right: 10px; margin-left: 0px;" width="250" height="250" /></p>
+<p><img src="SparkFun_HC-SR04_Ultrasonic-Sensor_13959-01a.jpg" alt="Imagen del sensor de ultrasonidos" title="Sensor" style="float: right; margin-right: 10px; margin-left: 10px;" width="250" height="250" />Ya sabéis que me tomo muy en serio vuestra formación. Por esto, he pensado que es importante conocer cómo funciona el <strong>sensor de ultrasonidos</strong>.</p>
+<p>Recordad que lo <strong>necesitaréis</strong> para poder desarrollar vuestro trabajo.</p>
+<p>Voy a intentar que sea muy sencillo de comprender.</p>
+<p>¡Empezamos!</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_reflexion" id="id2753">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_reflexion.svg)"><h1 class="iDeviceTitle">1. Ideas principales y secundarias</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2753_1086_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Para conseguir alcanzar una meta es importante que seas un <strong>buen o buena estratega</strong>. Es decir, tener <strong>métodos, técnicas, “trucos”</strong> para llegar antes o de forma más fácil donde tú quieres.</p>
+<p>Ahora te voy a enseñar una estrategia, ¡Aprovéchala para alcanzar tu reto!</p>
+<p>El nombre de la estrategia es <strong>identificar ideas principales y secundarias.</strong> Para trabajar con la información que vas a ver y poder elegir cuál es la más importante es necesario aprender a extraer las ideas principales y secundarias de un texto. Esto te ayudará a comprender mejor la información, encontrar rápidamente las ideas importantes y poder compartirlas con tus compañeras y compañeros.</p>
+<p>Podrás encontrar todo lo que necesitas sobre esta estrategia en el siguiente enlace a la <a href="https://edea.juntadeandalucia.es/bancorecursos/file/e0b96995-385b-4137-9c98-12bbbfa7e7c8/1/Guia_aprender_a_aprender_secundaria.zip/qu_es_lo_ms_importante.html" target="_blank" title="Accede a la guía para aprender a aprender donde te explicamos cómo identificar las ideas principales y secundarias" rel="noopener">guía de la competencia de aprender a aprender</a>.</p>
+<p>Tómate el tiempo que necesites y recuerda que siempre puedes preguntarle al docente o a algún compañero o compañera cuando no entiendas algo.</p>
+<p>¡Ánimo, seguro que lo haces genial!</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_rep_lee" id="id2754">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_rep_lee.svg)"><h1 class="iDeviceTitle">2. ¿Cómo funciona el HC-SR04?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2754_1081_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>En electrónica cuando queremos saber cómo funciona cierto componente, se suelen leer los <strong>datasheet</strong>, que son las <strong>hojas de característica</strong> de dicho componente, donde el <strong>fabricante</strong> explica todo lo referente a él.</p>
+<p>En nuestro caso estamos interesados en saber más cosas sobre el sensor <strong>HC-SR04</strong>, por lo tanto te invito a leer la siguiente información:</p>
+<p style="text-align: center;"><a href="https://www.bolanosdj.com.ar/MOVIL/ARDUINO2/Ultrasonido1.pdf" target="_blank" title="Accede al documento Ultrasonido1.pdf" rel="noopener"><img src="DataSheet.png" alt="Imagen que representa un datasheet." title="Datasheet" width="200" height="266"></a></p>
+<p style="text-align: center;"><a href="https://www.bolanosdj.com.ar/MOVIL/ARDUINO2/Ultrasonido1.pdf" target="_blank" title="Accede al documento Ultrasonido1.pdf" rel="noopener">Accede</a> al documento Ultrasonido1.pdf</p>
+<p style="text-align: left;">Aunque cada uno lo lea de forma individual, puedes comentar la lectura con tus compañeros o compañeras.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_coproducciontxt" id="id2755">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_coproducciontxt.svg)"><h1 class="iDeviceTitle">3. Nos fijamos en lo importante</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta2755_1082_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>La lectura anterior os ha ofrecido mucha información.</p>
+<p>Ahora debéis <strong>trabajar en parejas</strong> y contestar a las siguientes preguntas sobre la lectura anterior:</p>
+<ol>
+<li>¿Para qué se <strong>utilizan</strong> este tipo de sensores?</li>
+<li>¿Cómo consigue <strong>medir</strong> las distancias?</li>
+<li>¿Las personas pueden <strong>oír</strong> estos sonidos?</li>
+<li>¿Qué rango de <strong>valores</strong> pueden medir estos sensores?</li>
+<li>¿Conocéis alguna <strong>aplicación</strong> real?</li>
+<li>¿Qué <strong>fórmula matemática</strong> se emplea para el cálculo?</li>
+<li>¿Por qué hay que <strong>dividir entre dos</strong> el resultado obtenido?</li>
+<li>¿Puedes explicar los <strong>pines</strong> que tiene este sensor?</li>
+</ol>
+<p>Las preguntas podéis contestarlas en:</p>
+<ul>
+<li>Vuestro <strong>cuaderno</strong> de clase.</li>
+<li>Creando un documento con el <strong>ordenador</strong>, la herramieta <a href="https://www.openoffice.org/es/producto/writer.html" target="_blank" title="Accede a la página web de la aplicación libre OpenOffice" rel="noopener">OpenOffice Writer</a> puede ser una buena opción.</li>
+<li>¿Os atrevéis a hacer una <strong>infografía</strong>? Si os gusta la idea podéis probar con cualquier software para realizar presentaciones, en nuestra <strong>guía para el alumnado</strong> tenemos una <a href="https://edea.juntadeandalucia.es/bancorecursos/file/009a6dc0-f167-458a-9021-f5536bfd5ef3/1/guia_competencia_digital_REA_Andalucia.zip/trabajando_con_el_creador_de_presentaciones.html" target="_blank" title="Enlace a la guía para hacer presentaciones" rel="noopener">guía para hacer presentaciones</a> que te puede ser muy útil.</li>
+<li>Si se os ocurre <strong>otra forma</strong> de hacerlo, adelante.</li>
+</ul></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id2756">
+<div class="iDevice emphasis0" >
+<div id="ta2756_1080_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="retor_adultos_sin_bocadillo.gif" alt="Retor dice" title="Retor" style="float: left; margin-right: 10px; margin-left: 0px;" width="250" height="250" /></p>
+<p>Ahora conocemos mejor <strong>cómo funciona</strong> este importante <strong>sensor</strong>. Hemos aprendido muchas cosas, como por ejemplo:</p>
+<ul style="overflow: hidden;">
+<li style="list-style-type: none;">
+<ul style="list-style-type: disc;">
+<li>Aplicaciones.</li>
+<li>Principio de funcionamiento.</li>
+<li>Cómo realiza los cálculos para obtener el resultado.</li>
+</ul>
+</li>
+</ul>
+<p>Habéis realizado un gran trabajo.</p>
+<p>¡Felicidades!</p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="441_os_presento_al_robot_maqueen.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="442_nuestro_editor_de_cdigo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>

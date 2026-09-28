@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>2.2.1. Qué has aprendido sobre los microcontroladores | Robotica </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.7 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="udl-content.css" />
+<script type="text/javascript" src="udl-content.js"></script>
+<link rel="stylesheet" type="text/css" href="scrambled-list.css" />
+<script type="text/javascript" src="scrambled-list.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-7"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Robotica</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Aprendiendo sobre Robots</a></li>
+   <li><a href="1_qu_vamos_a_hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a></li>
+   <li class="current-page-parent"><a href="2_nuestra_placa_robtica.html" class="current-page-parent daddy">2. Nuestra placa robótica</a>
+   <ul>
+      <li><a href="21_exploramos_la_placa.html" class="no-ch">2.1. Exploramos la placa</a></li>
+      <li class="current-page-parent"><a href="22_el_cerebro_de_nuestro_robot.html" class="current-page-parent daddy">2.2. El cerebro de nuestro robot</a>
+      <ul>
+         <li id="active"><a href="221_qu_has_aprendido_sobre_los_microcontroladores.html" class="active no-ch">2.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+      </ul>
+      </li>
+      <li><a href="23_entradas_procesamiento_y_salidas.html" class="no-ch">2.3. Entradas, procesamiento y salidas</a></li>
+      <li><a href="24_pines_y_algunos_actuadores_jugando_con_nuestra_microbit.html" class="no-ch">2.4 Pines y algunos actuadores: jugando con nuestra Microbit</a></li>
+   </ul>
+   </li>
+   <li><a href="3_los_sensores_de_nuestro_robot.html" class="daddy">3. Los Sensores de nuestro robot</a>
+   <ul class="other-section">
+      <li><a href="31_activamos_nuestros_sentidos_perdn_sensores.html" class="no-ch">3.1 Activamos nuestros sentidos, perdón sensores</a></li>
+      <li><a href="32_la_importancia_de_los_sensores.html" class="no-ch">3.2 La importancia de los sensores</a></li>
+      <li><a href="33_el_sentido_de_los_sensores.html" class="daddy">3.3. El sentido de los sensores</a>
+      <ul class="other-section">
+         <li><a href="331_seales_de_vida.html" class="no-ch">3.3.1. Señales de vida</a></li>
+         <li><a href="332_veamos_si_mi_robot_detecta_algo.html" class="no-ch">3.3.2. Veamos si mi robot detecta algo</a></li>
+         <li><a href="333_programamos_con_makecode.html" class="no-ch">3.3.3. Programamos con MakeCode</a></li>
+         <li><a href="334_cmo_prefieres_ver_lo_que_miden_los_sensores.html" class="no-ch">3.3.4. ¿Cómo prefieres ver lo que miden los sensores?</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="4_proyecto_nos_desplazamos_con_seguridad.html" class="daddy">4. Proyecto: Nos desplazamos con seguridad.</a>
+   <ul class="other-section">
+      <li><a href="41_comenzamos_a_movernos.html" class="no-ch">4.1. Comenzamos a movernos</a></li>
+      <li><a href="42_hacemos_memoria.html" class="no-ch">4.2. ¿Hacemos memoria?</a></li>
+      <li><a href="43_conoce_a_nuestros_tres_protagonistas.html" class="no-ch">4.3. Conoce a nuestros tres protagonistas</a></li>
+      <li><a href="44_aprendemos_todo_lo_necesario.html" class="daddy">4.4. Aprendemos todo lo necesario</a>
+      <ul class="other-section">
+         <li><a href="441_os_presento_al_robot_maqueen.html" class="daddy">4.4.1. Os presento al robot Maqueen</a>
+         <ul class="other-section">
+            <li><a href="4411_cmo_funciona_el_sensor_ultrasnico.html" class="no-ch">4.4.1.1 ¿Cómo funciona el sensor ultrasónico?</a></li>
+         </ul>
+         </li>
+         <li><a href="442_nuestro_editor_de_cdigo.html" class="no-ch">4.4.2 Nuestro editor de código</a></li>
+         <li><a href="443_programamos_la_placa_controladora.html" class="no-ch">4.4.3. Programamos la placa controladora</a></li>
+      </ul>
+      </li>
+      <li><a href="45_ahora_toca_programar.html" class="no-ch">4.5. Ahora toca programar</a></li>
+      <li><a href="46_es_la_hora_de_compartir.html" class="no-ch">4.6. Es la hora de compartir</a></li>
+      <li><a href="47_sacamos_conclusiones.html" class="no-ch">4.7. Sacamos conclusiones</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="22_el_cerebro_de_nuestro_robot.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_entradas_procesamiento_y_salidas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">2.2.1. Qué has aprendido sobre los microcontroladores</h1></header>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id706">
+<div class="iDevice emphasis0" >
+<div id="ta706_574_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><img src="gif_animado_narrador_juvenil.gif" alt="Retor dice" style="float: left;" width="250" height="250">Ha llegado el momento de comprobar qué has aprendido sobre los microcontroladores. Vamos a resolver algunas tareas para poder demostrar todo lo que sabemos y hemos aprendido.</p>
+<p>Recuerda que antes de realizarlas debes estar relajado o relajada.</p>
+<p>¡Ánimo que seguro que eres capaz de hacerlo genial!</p></div></div></section></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id707">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">1. ¿Sabes qué aparatos llevan un microcontrolador?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta707_487_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Comprueba que sabes qué aparatos llevan un microcontrolador.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id708">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Recuerda los nombres de estos aparatos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-708_108">
+<form name="multi-select-form-708_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion708_108" class="block question iDevice_content">
+<p>¿Cuáles de estos aparatos usa un microcontrolador como “cerebro”?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1080" class="sr-av"><a href="#answer-708_111">Opción 1</a></label><input type="checkbox" id="op708_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_111"><div id="taans708_111" class="block iDevice_content">
+<p>Microondas</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1081" class="sr-av"><a href="#answer-708_17744">Opción 2</a></label><input type="checkbox" id="op708_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_17744"><div id="taans708_17744" class="block iDevice_content">
+<p>Radio</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1082" class="sr-av"><a href="#answer-708_17751">Opción 3</a></label><input type="checkbox" id="op708_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_17751"><div id="taans708_17751" class="block iDevice_content">
+<p>Alicates</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1082" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1083" class="sr-av"><a href="#answer-708_17753">Opción 4</a></label><input type="checkbox" id="op708_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_17753"><div id="taans708_17753" class="block iDevice_content">
+<p>Destornillador</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1083" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1084" class="sr-av"><a href="#answer-708_17756">Opción 5</a></label><input type="checkbox" id="op708_1084" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_17756"><div id="taans708_17756" class="block iDevice_content">
+<p>Ratón de ordenador</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1084" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op708_1085" class="sr-av"><a href="#answer-708_17759">Opción 6</a></label><input type="checkbox" id="op708_1085" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-708_17759"><div id="taans708_17759" class="block iDevice_content">
+<p>Teléfono móvil</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-708_1085" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-6-708_108" /> 
+</p>
+</div>
+<section id="f708_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+<div id="tafeedback708_108" class="feedback iDevice_content">
+<p>Alicate: Es una herramienta que no incorpora ningún componente electrónico</p>
+<p>Destornillador: Es una herramienta que no incorpora ningún componente electrónico</p>
+<p>Teléfono móvil: Usa un microprocesador como “cerebro”</p>
+</div>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-708_111" class="right">Correcto</a></li>
+<li><a href="#answer-708_17744" class="right">Correcto</a></li>
+<li><a href="#answer-708_17751" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-708_17753" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-708_17756" class="right">Correcto</a></li>
+<li><a href="#answer-708_17759" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id709">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: En tu vida cotidiana</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta709_482_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Crea una relación de aparatos que usas en tu vida cotidiana que crees que tienen un microcontrolador como cerebro y otra lista de objetos que crees que no llevan un microcontrolador.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id710">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción C:  ¿En un ratón?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta710_583_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Con lo que has aprendido justifica por qué crees que un ratón de ordenador lleva un microcontrolador.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id711">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">2. ¿De qué están hechos los microcontroladores?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta711_485_2" class="block iDevice_content">
+<div class="exe-text"><p>Comprueba que sabes el material del que están hechos los microcontroladores.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id712">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Recuerda de qué están hechos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-712_108">
+<form name="multi-select-form-712_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion712_108" class="block question iDevice_content">
+<p>De qué material están fabricados los microcontroladores:</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op712_1080" class="sr-av"><a href="#answer-712_111">Opción 1</a></label><input type="checkbox" id="op712_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-712_111"><div id="taans712_111" class="block iDevice_content">
+<p>Silicio</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-712_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op712_1081" class="sr-av"><a href="#answer-712_18191">Opción 2</a></label><input type="checkbox" id="op712_1081" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-712_18191"><div id="taans712_18191" class="block iDevice_content">
+<p>Cobre</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-712_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op712_1082" class="sr-av"><a href="#answer-712_18193">Opción 3</a></label><input type="checkbox" id="op712_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-712_18193"><div id="taans712_18193" class="block iDevice_content">
+<p>Plástico</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-712_1082" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op712_1083" class="sr-av"><a href="#answer-712_18195">Opción 4</a></label><input type="checkbox" id="op712_1083" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-712_18195"><div id="taans712_18195" class="block iDevice_content">
+<p>Madera</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-712_1083" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-4-712_108" /> 
+</p>
+</div>
+<section id="f712_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+<div id="tafeedback712_108" class="feedback iDevice_content">
+<p>En su fabricación se emplea un material semiconductor, el silicio.</p>
+</div>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-712_111" class="right">Correcto</a></li>
+<li><a href="#answer-712_18191" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-712_18193" class="wrong">Incorrecto</a></li>
+<li><a href="#answer-712_18195" class="wrong">Incorrecto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id713">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: ¿Se podría usar plástico o madera?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta713_489_2" class="block iDevice_content">
+<div class="exe-text"><p>¿Por qué crees que para fabricar un microcontrolador no se usa el plástico o la madera?</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id714">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">3. ¿Cómo se programan los microcontroladores?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta714_553_2" class="block iDevice_content">
+<div class="exe-text"><p>Comprueba que sabes cómo se le dan las órdenes a los microcontroladores.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ScrambledListIdevice em_iDevice em_iDevice_activity" id="id715">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Ordena el proceso de programación</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta715_554_2" class="block iDevice_content">
+<div class="exe-sortableList"><div class="exe-sortableList-instructions"><p>Ordena el proceso de programación:</p></div><ul class="exe-sortableList-list"><li>Se realiza el programa en un entorno de programación.</li><li>Se convierte el programa a archivo binario.</li><li>Se carga el programa en el microcontrolador.</li></ul><div style="display:none"><p class="exe-sortableList-buttonText">Comprobar</p><p class="exe-sortableList-rightText">¡Enhorabuena, has hecho un gran trabajo!</p><p class="exe-sortableList-wrongText">Parece que deberías revisar el proceso de programación del microcontrolador. Por si te es de ayuda la Respuesta correcta:</p></div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id716">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: De los bloques a binario</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta716_555_2" class="block iDevice_content">
+<div class="exe-text"><p>¿Por qué crees que hay que convertir el programa que realizamos en el entorno de programación mediante bloques a un formato binario para cargarlo en el microcontrolador?</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id717">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">4. Ventajas de los microcontroladores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta717_556_2" class="block iDevice_content">
+<div class="exe-text"><p>Comprueba que has aprendido cuáles son las ventajas que aportan los microcontroladores.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id718">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Los motivos de su éxito</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-718_108">
+<form name="multi-select-form-718_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion718_108" class="block question iDevice_content">
+<p>¿Por qué los microcontroladores están en muchos aparatos?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op718_1080" class="sr-av"><a href="#answer-718_111">Opción 1</a></label><input type="checkbox" id="op718_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-718_111"><div id="taans718_111" class="block iDevice_content">
+<p>Son baratos</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-718_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op718_1081" class="sr-av"><a href="#answer-718_18197">Opción 2</a></label><input type="checkbox" id="op718_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-718_18197"><div id="taans718_18197" class="block iDevice_content">
+<p>Son pequeños</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-718_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op718_1082" class="sr-av"><a href="#answer-718_18199">Opción 3</a></label><input type="checkbox" id="op718_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-718_18199"><div id="taans718_18199" class="block iDevice_content">
+<p>Pueden realizar muchas funciones</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-718_1082" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op718_1083" class="sr-av"><a href="#answer-718_18201">Opción 4</a></label><input type="checkbox" id="op718_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-718_18201"><div id="taans718_18201" class="block iDevice_content">
+<p>Son rápidos</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-718_1083" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op718_1084" class="sr-av"><a href="#answer-718_18203">Opción 5</a></label><input type="checkbox" id="op718_1084" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-718_18203"><div id="taans718_18203" class="block iDevice_content">
+<p>Es fácil programarlos</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-718_1084" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-5-718_108" /> 
+</p>
+</div>
+<section id="f718_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-718_111" class="right">Correcto</a></li>
+<li><a href="#answer-718_18197" class="right">Correcto</a></li>
+<li><a href="#answer-718_18199" class="right">Correcto</a></li>
+<li><a href="#answer-718_18201" class="right">Correcto</a></li>
+<li><a href="#answer-718_18203" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id719">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Elige los más importantes</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta719_559_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>De los motivos que hemos visto que hacen que los microcontroladores estén en muchos aparatos, ¿cuáles crees que son las más importantes? Justifica tu respuesta.</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id720">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">5. La importancia de los microcontroladores</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta720_560_2" class="block iDevice_content">
+<div class="exe-text"><p>Comprueba que reconoces la importancia de los microcontroladores en la sociedad actual.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice em_iDevice_question" id="id721">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: Recuerda su importancia</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta721_100" class="block iDevice_content">
+
+</div>
+<section class="question">
+<form name="true-false-form-0b721" action="#" class="activity-form">
+<h1 class="js-sr-av">Pregunta 1</h1>
+<div id="taquestion0b721" class="block iDevice_content">
+<p>Muchos de los aparatos que usamos en la actualidad funcionan con un microcontrolador o un microprocesador.</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b721"><input type="radio" name="option0b721" id="true0b721" class="exe-radio-option exe-radio-option-0-2-0b721-truefalse" /> Verdadero</label> 
+<label for="false0b721"><input type="radio" name="option0b721" id="false0b721" class="exe-radio-option exe-radio-option-1-2-0b721-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b721" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Retroalimentación</h1>
+<p><strong id="s0b721-result" class="right">Verdadero</strong></p>
+<p>En la actualidad la mayoria de aparatos que usamos funcionan con un microcontrolador o un microprocesador si es necesario más potencia de cálculo.</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id722">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Imagina la vida sin ellos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta722_562_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Imagina que no se hubieran inventado los microprocesadores y microcontroladores, ¿Qué aparatos que consideras importantes crees que no existirían? ¿Cómo crees que afectaría a nuestras vidas?</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_udl_exp_ejercicio" id="id723">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_ejercicio.svg)"><h1 class="iDeviceTitle">6. ¿Qué son las tecnologías Open Source?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta723_563_2" class="block iDevice_content">
+<div class="exe-text"><p>Comprueba que sabes qué es una tecnología abierta y qué implica.</p>
+<p>Esta es una actividad optativa. Para responder debes leer antes “¿Quieres saber más de los microcontroladores?: ¿sabes que nuestra placa robótica es de código abierto? ¿Sabes qué significa?” desarrollado en el apartado 4. Qué es un microcontrolador, de la página anterior.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice em_iDevice_question" id="id724">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Opción A: ¿Recuerdas qué son las tecnologías abiertas?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-724_108">
+<form name="multi-select-form-724_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion724_108" class="block question iDevice_content">
+<p>Una tecnología es Open Source:</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op724_1080" class="sr-av"><a href="#answer-724_111">Opción 1</a></label><input type="checkbox" id="op724_1080" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-724_111"><div id="taans724_111" class="block iDevice_content">
+<p>Cuando podemos acceder a la información y saber cómo está hecho.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-724_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op724_1081" class="sr-av"><a href="#answer-724_18213">Opción 2</a></label><input type="checkbox" id="op724_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-724_18213"><div id="taans724_18213" class="block iDevice_content">
+<p>Cuando tenemos licencia para estudiarlo, replicarlo y modificarlo.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-724_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op724_1082" class="sr-av"><a href="#answer-724_18215">Opción 3</a></label><input type="checkbox" id="op724_1082" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-724_18215"><div id="taans724_18215" class="block iDevice_content">
+<p>Cuando es gratis.</p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-724_1082" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Mostrar retroalimentación" id="multi-select-feedback-toggler-3-724_108" /> 
+</p>
+</div>
+<section id="f724_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Retroalimentación</h1>
+
+<div id="tafeedback724_108" class="feedback iDevice_content">
+<p>El precio no tiene relación con que una tecnología sea abierta o no. Que la tecnología sea abierta significa que podemos acceder a la información y saber cómo se ha hecho y que se dispone de una licencia para replicarla y modificarla.</p>
+</div>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solución</h1>
+<ol>
+<li><a href="#answer-724_111" class="right">Correcto</a></li>
+<li><a href="#answer-724_18213" class="right">Correcto</a></li>
+<li><a href="#answer-724_18215" class="right">Correcto</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice em_iDevice_udl_exp_tarea" id="id725">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_udl_exp_tarea.svg)"><h1 class="iDeviceTitle">Opción B: Cuáles son sus ventajas</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta725_565_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-expression"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>¿Cuáles crees que son las ventajas de trabajar con una tecnología Open Source desde el punto de vista del usuario? ¿Y desde el punto de vista social?</p></div></div></section></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper UDLcontentIdevice" id="id726">
+<div class="iDevice emphasis0" >
+<div id="ta726_590_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header exe-udlContent-character-1"><h2><span class="sr-av">Motus dice </span>¿Te has equivocado en algo al hacer la actividad?</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Cuando queremos aprender algo, lo normal es equivocarse al principio. <strong>Fallar forma parte de aprender</strong>. ¿Recuerdas cuando montaste en bici por primera vez? ¿o cuando intentabas nadar en el agua? Seguro que al principio no fue fácil, pero cada vez que fallabas, lo intentabas de nuevo. Con cada fallo aprendemos del error y lo mejoramos para la vez siguiente.</p>
+<p>Para aprender de tus errores sigue estos consejos:</p>
+<ul>
+<li>Me doy cuenta de en qué parte he fallado.</li>
+<li>Busco la forma de mejorar ese error.</li>
+<li>Lo intento de nuevo.</li>
+<li>Entiendo que el error es importante para aprender.</li>
+</ul>
+<p>No lo olvides: cuando te equivocas una vez, aprendes para el siguiente intento.</p></div></div></section></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="22_el_cerebro_de_nuestro_robot.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="23_entradas_procesamiento_y_salidas.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>
